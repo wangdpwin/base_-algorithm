@@ -1,0 +1,50 @@
+// 简单排序
+冒泡
+  --基本不用，慢，稳定
+选择
+  --基本不用，没插入快，不稳
+插入
+  --稳定，数据基本有序或数据量小可以使用
+
+// 复杂排序
+希尔排序
+  --
+
+归并排序
+  -- 时间复杂度  N * logN
+  -- 空间复杂度  N
+  -- 稳定性     稳定
+
+# java对象排序
+//快排
+public static void sort(int[] a) {
+    DualPivotQuicksort.sort(a, 0, a.length - 1, null, 0, 0);
+}
+//归并
+public static void sort(Object[] a) {
+    if (LegacyMergeSort.userRequested)
+        legacyMergeSort(a);
+    else
+        ComparableTimSort.sort(a, 0, a.length, null, 0, 0);
+}
+
+快排
+
+双轴快排
+
+双插入排序
+
+荷兰国旗问题
+
+TimSort
+
+Arrays.sort
+
+
+-----------------------------------------------------------
+计数排序
+  量大但是范围小
+
+基数排序
+
+桶排序
