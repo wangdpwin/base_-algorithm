@@ -1,7 +1,7 @@
 package cn.wangdpwin.sort;
 
-import static cn.wangdpwin.sort.SortUtil.swap;
-
+import static cn.wangdpwin.sort.util.SortUtil.swap;
+import cn.wangdpwin.sort.util.Check;
 import com.alibaba.fastjson.JSON;
 
 /**

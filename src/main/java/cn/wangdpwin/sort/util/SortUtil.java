@@ -1,4 +1,4 @@
-package cn.wangdpwin.sort;
+package cn.wangdpwin.sort.util;
 
 /**
  * @Author: wangdongpeng

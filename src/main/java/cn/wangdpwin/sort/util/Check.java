@@ -1,4 +1,6 @@
-package cn.wangdpwin.sort;
+package cn.wangdpwin.sort.util;
+
+import cn.wangdpwin.sort.SelectSort;
 
 import java.util.Random;
 
